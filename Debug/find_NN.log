@@ -1,0 +1,62 @@
+﻿Build started 6/26/2017 4:03:10 PM.
+     1>Project "C:\Wasif\find_NN\find_NN\find_NN.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt hamming_distance.cpp Lsh_bucket.cpp Lsh_bucket_genome.cpp nn_cosine.cpp NN_jaccard.cpp result_analysis.cpp result_analysis_lsh.cpp result_analysis_lsh_genome.cpp run_time.cpp similarity_calculation.cpp main.cpp
+         main.cpp
+     1>c:\wasif\find_nn\find_nn\main.cpp(28): warning C4005: 'LIMIT' : macro redefinition
+                 c:\wasif\find_nn\find_nn\nn_jaccard.h(29) : see previous definition of 'LIMIT'
+     1>c:\wasif\find_nn\find_nn\main.cpp(55): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>c:\wasif\find_nn\find_nn\main.cpp(69): warning C4101: 'query_n' : unreferenced local variable
+         similarity_calculation.cpp
+     1>c:\wasif\find_nn\find_nn\similarity_calculation.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\wasif\find_nn\find_nn\similarity_calculation.cpp(69): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\wasif\find_nn\find_nn\similarity_calculation.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+         run_time.cpp
+         result_analysis_lsh_genome.cpp
+     1>c:\wasif\find_nn\find_nn\result_analysis_lsh_genome.cpp(57): warning C4101: 'u1' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\result_analysis_lsh_genome.cpp(18): warning C4101: 'ch3' : unreferenced local variable
+         result_analysis_lsh.cpp
+     1>c:\wasif\find_nn\find_nn\result_analysis_lsh.cpp(57): warning C4101: 'u1' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\result_analysis_lsh.cpp(18): warning C4101: 'ch3' : unreferenced local variable
+         result_analysis.cpp
+         NN_jaccard.cpp
+         nn_cosine.cpp
+         Lsh_bucket_genome.cpp
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 't_count' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(27): warning C4101: 'f' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 'ptr' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 'f_count' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 'k' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 'u2' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(23): warning C4101: 'u1' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket_genome.cpp(44): warning C4101: 'ch3' : unreferenced local variable
+         Lsh_bucket.cpp
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 't_count' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(27): warning C4101: 'f' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 'ptr' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 'f_count' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 'k' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 'u2' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(23): warning C4101: 'u1' : unreferenced local variable
+     1>c:\wasif\find_nn\find_nn\lsh_bucket.cpp(44): warning C4101: 'ch3' : unreferenced local variable
+         hamming_distance.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Wasif\find_NN\Debug\find_NN.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Wasif\find_NN\Debug\find_NN.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Wasif\find_NN\Debug\find_NN.lib" /MACHINE:X86 Debug\hamming_distance.obj
+         Debug\Lsh_bucket.obj
+         Debug\Lsh_bucket_genome.obj
+         Debug\nn_cosine.obj
+         Debug\NN_jaccard.obj
+         Debug\result_analysis.obj
+         Debug\result_analysis_lsh.obj
+         Debug\result_analysis_lsh_genome.obj
+         Debug\run_time.obj
+         Debug\similarity_calculation.obj
+         Debug\main.obj
+         find_NN.vcxproj -> C:\Wasif\find_NN\Debug\find_NN.exe
+     1>Done Building Project "C:\Wasif\find_NN\find_NN\find_NN.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.21
